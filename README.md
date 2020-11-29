@@ -36,7 +36,35 @@ Melakukan iptables
 
 ![Screenshot (34)](https://user-images.githubusercontent.com/58022238/100530315-f7a51480-3222-11eb-9d51-8e54ce9bbb5f.png)
 
-2. 
-Install dhcp relay di UML Surabaya
-apt-get install isc-dhcp-relay
+2. Install dhcp relay di UML Surabaya
+   apt-get install isc-dhcp-relay
+   
+   
+a.) Kemudian memasukkan IP Tuban dan mengatur nilai interfaces “eth1, eth2, eth3”
+nano /etc/default/isc-dhcp-relay
+
+
+
+b.) Install DHCP di UML Tuban
+apt-get install isc-dhcp-server
+
+
+
+c.) Kemudian tambahkan subnet NID_DMZ di UML Tuban agar dhcp relay bisa berjalan
+subnet 10.151.71.64 netmask 255.255.255.248{
+	option routers 10.151.79.65;
+}
+
+
+
+
+d.) Kemudian mengubah semua client yang awalnya static menjadi dhcp dengan membuka
+nano /etc/network/interfaces
+menambakan
+auto eth0
+iface eth0 inet dhcp
+
+
+
+
 
