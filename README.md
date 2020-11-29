@@ -12,3 +12,6 @@ sysctl -p
 
 Melakukan setting IP dengan nano /etc/network/interfaces 
 
+![Screenshot (24)](https://user-images.githubusercontent.com/58022238/100530216-b52f0800-3221-11eb-9dab-c65873b9c96f.png)
+
+
