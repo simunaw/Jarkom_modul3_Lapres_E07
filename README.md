@@ -80,4 +80,28 @@ sysctl -p<br/>
 <br/>pada kedua subnet yang ada di UML Tuban
 <br/>![Screenshot (45)](https://user-images.githubusercontent.com/58022238/100535654-6c8d4400-324d-11eb-88bb-25f9914502bb.png)
 <br/>![Screenshot (46)](https://user-images.githubusercontent.com/58022238/100535655-6d25da80-324d-11eb-9653-1972d5e48684.png)
+<br/>![Screenshot (47)](https://user-images.githubusercontent.com/58022238/100536155-2934d480-3251-11eb-9b92-63b8dc1f203a.png)
+
+## no 7
+### install squid dan apache-utils di UML Mojokerto
+<br/>apt-get install squid
+<br/>apt-get install apache2-utils
+<br/>edit konfigurasi seperti berikut nano /etc/squid/squid.conf
+<br/>acl all src 0.0.0.0/0.0.0.0
+<br/>http_port 8080
+<br/>visible_hostname mojokerto
+ 
+<br/>auth_param basic program /usr/lib/squid/ncsa_auth /etc/squid/passwd
+<br/>auth_param basic children 5
+<br/>auth_param basic realm Proxy
+<br/>auth_param basic credentialsttl 2 hours
+<br/>auth_param basic casesensitive on
+<br/>acl USERS proxy_auth REQUIRED
+<br/>http_access allow USERS
+<br/>![Screenshot (48)](https://user-images.githubusercontent.com/58022238/100536158-2c2fc500-3251-11eb-9f81-f5b2cd1a4001.png)
+<br/>lalu set password dengan htpasswd -c /etc/squid/passwd userta_e07
+<br/>pass : inipassw0rdta_e07
+<br/>![Screenshot (49)](https://user-images.githubusercontent.com/58022238/100536163-30f47900-3251-11eb-8c09-9a2b3bd27d01.png)
+
+
 
