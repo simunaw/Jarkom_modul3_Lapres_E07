@@ -28,7 +28,7 @@ sysctl -p<br/>
 <br/>![1 13](https://user-images.githubusercontent.com/56763570/100535362-0c56bd80-31cd-11eb-982b-b57f2cee63c3.png)<br/>
 
 ## soal 2 
-####Install dhcp relay di UML Surabaya
+#### Install dhcp relay di UML Surabaya
 <br/>apt-get install isc-dhcp-relay
 <br/>![Screenshot (35)](https://user-images.githubusercontent.com/58022238/100530530-cf6ae500-3225-11eb-92f1-4d2da1552156.png)
 
