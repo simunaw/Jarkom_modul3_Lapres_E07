@@ -11,7 +11,7 @@ sysctl -p<br/>
 
 <br/>![Screenshot (23)](https://user-images.githubusercontent.com/58022238/100530185-49e53600-3221-11eb-82b6-de50f8ed356c.png)<br/>
 
-### <br/>Melakukan setting IP dengan nano /etc/network/interfaces<br/>
+### <br/>Melakukan setting IP dengan nano /etc/network/interfaces
 <br/>![Screenshot (24)](https://user-images.githubusercontent.com/58022238/100530216-b52f0800-3221-11eb-9dab-c65873b9c96f.png)<br/>
 <br/>![1 4](https://user-images.githubusercontent.com/56763570/100535252-16c48780-31cc-11eb-9b57-79625563d0f5.png)<br/>
 <br/>![1 5](https://user-images.githubusercontent.com/56763570/100535254-19bf7800-31cc-11eb-9bff-131991c9ccee.png)<br/>
@@ -22,9 +22,11 @@ sysctl -p<br/>
 <br/>![1 10](https://user-images.githubusercontent.com/56763570/100535261-23e17680-31cc-11eb-91e9-a9729f7f6ee6.png)<br/>
 
 ### <br/>Melakukan iptables<br/>
-![Screenshot (32)](https://user-images.githubusercontent.com/58022238/100530311-efe57000-3222-11eb-89c1-458f2c25d849.png)<br/>
-![Screenshot (33)](https://user-images.githubusercontent.com/58022238/100530312-f378f700-3222-11eb-9dd4-799d4360daa2.png)<br/>
-![Screenshot (34)](https://user-images.githubusercontent.com/58022238/100530315-f7a51480-3222-11eb-9d51-8e54ce9bbb5f.png)<br/>
+<br/>![1 11](https://user-images.githubusercontent.com/56763570/100535355-019c2880-31cd-11eb-8006-08880dba0245.png)<br/>
+<br/>![1 12](https://user-images.githubusercontent.com/56763570/100535361-0b259080-31cd-11eb-90d7-3e30e074e15b.png)<br/>
+<br/>![1 13](https://user-images.githubusercontent.com/56763570/100535362-0c56bd80-31cd-11eb-982b-b57f2cee63c3.png)<br/>
+
+
 
 2. Install dhcp relay di UML Surabaya
 
