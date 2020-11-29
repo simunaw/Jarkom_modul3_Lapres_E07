@@ -139,6 +139,19 @@ sysctl -p<br/>
 <br/>replace ERR_ACCESS_DENIED dengan mendownload wget -N 10.151.36.202/ERR_ACCESS_DENIED
 <br/>![Screenshot (59)](https://user-images.githubusercontent.com/58022238/100536624-6cdd0d80-3254-11eb-8283-d8dba8515efa.png)
 
+## soal 12
+### pada uml Malang, install bind9
+<br/>apt-get install bind9
+<br/>nano /etc/bind/named.conf.local dan konfiguraasikan seperti dibawah
+<br/>![Screenshot (60)](https://user-images.githubusercontent.com/58022238/100536626-6ea6d100-3254-11eb-9d0c-d47e01a078be.png)
+<br/>serta cp /etc/bind/db.local janganlupa-ta.e07.pw dan konfigurasikan seperti gambar dibawah
+<br/>![Screenshot (61)](https://user-images.githubusercontent.com/58022238/100536628-70709480-3254-11eb-81d6-db6b2fa7f86d.png)
+<br/>setelah itu baru proxy pada firefox bisa diganti menjadi janganlupa-ta.eo7.pw
+<br/>![Screenshot (62)](https://user-images.githubusercontent.com/58022238/100536630-723a5800-3254-11eb-80ce-a86dbf057630.png)
+<br/>![Screenshot (63)](https://user-images.githubusercontent.com/58022238/100536631-74041b80-3254-11eb-8019-75fae68470f3.png)
+
+
+
 
 
 
