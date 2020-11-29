@@ -65,13 +65,15 @@ sysctl -p<br/>
 <br/>
 <br/>![Screenshot (43)](https://user-images.githubusercontent.com/58022238/100535652-68f9bd00-324d-11eb-84ef-8db9c94d8ea0.png)
 
-## soal 5 DNS Malang dan DNS 202.46.129.2 dari DHCP
+## soal 5 
+### DNS Malang dan DNS 202.46.129.2 dari DHCP
 <br/>menambahkan
 <br/>option domain-name-servers 10.151.71.66, 202.46.129.2
 <br/>![Screenshot (43)](https://user-images.githubusercontent.com/58022238/100535819-c4787a80-324e-11eb-9377-72aa6c53949e.png)
 <br/>![Screenshot (44)](https://user-images.githubusercontent.com/58022238/100535653-6ac38080-324d-11eb-96d4-c66ac4371b44.png)
 
-## soal 6 Disubnet 1 mendapat pinjaman alamat IP selama 5 menit, sedangkan pada subnet 3 mendapatkan peminjaman IP selama 10 menit.
+## soal 6 
+### Disubnet 1 mendapat pinjaman alamat IP selama 5 menit, sedangkan pada subnet 3 mendapatkan peminjaman IP selama 10 menit.
 <br/>menabahkan:
 <br/>default-lease-time 600;
 <br/>max-lease-time 600;
