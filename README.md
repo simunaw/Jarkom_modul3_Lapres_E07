@@ -11,7 +11,7 @@ sysctl -p<br/>
 
 <br/>![Screenshot (23)](https://user-images.githubusercontent.com/58022238/100530185-49e53600-3221-11eb-82b6-de50f8ed356c.png)<br/>
 
-Melakukan setting IP dengan nano /etc/network/interfaces<br/>
+<br/>Melakukan setting IP dengan nano /etc/network/interfaces<br/>
 ![Screenshot (24)](https://user-images.githubusercontent.com/58022238/100530216-b52f0800-3221-11eb-9dab-c65873b9c96f.png)<br/>
 ![Screenshot (25)](https://user-images.githubusercontent.com/58022238/100530292-c7f60c80-3222-11eb-80f8-e1aabd01bdd8.png)<br/>
 ![Screenshot (26)](https://user-images.githubusercontent.com/58022238/100530294-cdebed80-3222-11eb-919c-983a2b729a9c.png)<br/>
@@ -21,7 +21,7 @@ Melakukan setting IP dengan nano /etc/network/interfaces<br/>
 ![Screenshot (30)](https://user-images.githubusercontent.com/58022238/100530304-e4924480-3222-11eb-8f53-9d8cb3e32e97.png)<br/>
 ![Screenshot (31)](https://user-images.githubusercontent.com/58022238/100530309-eb20bc00-3222-11eb-8de4-806a86f64bc4.png)<br/>
 
-Melakukan iptables<br/>
+<br/>Melakukan iptables<br/>
 ![Screenshot (32)](https://user-images.githubusercontent.com/58022238/100530311-efe57000-3222-11eb-89c1-458f2c25d849.png)<br/>
 ![Screenshot (33)](https://user-images.githubusercontent.com/58022238/100530312-f378f700-3222-11eb-9dd4-799d4360daa2.png)<br/>
 ![Screenshot (34)](https://user-images.githubusercontent.com/58022238/100530315-f7a51480-3222-11eb-9d51-8e54ce9bbb5f.png)<br/>
