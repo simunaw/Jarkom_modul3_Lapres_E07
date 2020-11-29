@@ -103,5 +103,46 @@ sysctl -p<br/>
 <br/>pass : inipassw0rdta_e07
 <br/>![Screenshot (49)](https://user-images.githubusercontent.com/58022238/100536163-30f47900-3251-11eb-8c09-9a2b3bd27d01.png)
 
+## soal 8
+### tambahkan file acl.conf
+<br/>nano /etc/squid/acl.conf dan tambahkan acl NGULITA time TW 13:00-18:00
+<br/>![Screenshot (54)](https://user-images.githubusercontent.com/58022238/100536605-5a62d400-3254-11eb-9043-43afd0e303d3.png)
+### lalu buka /etc/squid/squid.conf dan tambahkan
+
+<br/>include /etc/squid/acl.conf
+<br/>http_access allow USERS KULITA
+<br/>http_access deny all
+<br/>![Screenshot (55)](https://user-images.githubusercontent.com/58022238/100536613-63ec3c00-3254-11eb-9983-211c6b146c5f.png)
+
+## soal 9
+### nano /etc/squid/acl.conf dan tambahkan setting untuk hari selasa rabu kamis jumat, tambahkan juga settingan pada squid.conf
+<br/>/etc/squid/ACL.conf
+<br/>acl BIMBINGAN1 time TWH 21:00-23:59
+<br/>acl BIMBINGAN2 time WHF 00:00-09:00
+
+<br/>/etc/squid/squid.conf
+<br/>http_access allow USERS BIMBINGAN1
+<br/>http_access allow USERS BIMBINGAN2
+<br/>![Screenshot (56)](https://user-images.githubusercontent.com/58022238/100536616-66e72c80-3254-11eb-830a-b5ce314621ab.png)
+<br/>![Screenshot (57)](https://user-images.githubusercontent.com/58022238/100536617-68b0f000-3254-11eb-8248-89e112851ebe.png)
+
+## soal 10
+### nano /etc/squid/squid.conf dan tambahkan
+
+<br/>Acl REDIRSITE dstdomain .google.com
+<br/>deny_info 301:http://monta.if.its.ac.id REDIRSITE
+<br/>http_access deny REDIRSITE
+<br/>![Screenshot (58)](https://user-images.githubusercontent.com/58022238/100536620-6a7ab380-3254-11eb-8451-d997590f7fe0.png)
+
+## soal 11
+### cd /usr/share/squid/errors/English
+<br/>replace ERR_ACCESS_DENIED dengan mendownload wget -N 10.151.36.202/ERR_ACCESS_DENIED
+<br/>![Screenshot (59)](https://user-images.githubusercontent.com/58022238/100536624-6cdd0d80-3254-11eb-8283-d8dba8515efa.png)
+
+
+
+
+
+
 
 
