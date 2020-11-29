@@ -3,7 +3,7 @@ Praktikum Modul 3 Jarkom 2020<br/>
 05111840000051 Juwita Kartika Rani<br/>
 05111840000115 Muhammad Rafi Yudhistira<br/>
 05111840007004 Siti Munawaroh<br/>
-## Soal 1 Mensetting uml sesuai deskripsi soal<br/>
+### Soal 1 Mensetting uml sesuai deskripsi soal<br/>
 a.) Di UML Surabaya<br/>
 nano /etc/sysctl.conf<br/>
 net.ipv4.ip_forward=1<br/>
