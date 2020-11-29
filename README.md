@@ -58,9 +58,19 @@ sysctl -p<br/>
 
 ## soal 4 Menambahkan range pada subnet 3
 <br/>Client pada subnet 3 mendapatkan range IP dari 192.168.1.50 sampai 192.168.1.70.
-<br/>(42) - Copy](https://user-images.githubusercontent.com/58022238/100535647-626b4580-324d-11eb-98b8-8489e88f5dc6.png)
+<br/>
 <br/>![Screenshot (43)](https://user-images.githubusercontent.com/58022238/100535652-68f9bd00-324d-11eb-84ef-8db9c94d8ea0.png)
 
+## soal 5 DNS Malang dan DNS 202.46.129.2 dari DHCP
+<br/>menambahkan
+<br/>option domain-name-servers 10.151.71.66, 202.46.129.2
+<br/>![Screenshot (44)](https://user-images.githubusercontent.com/58022238/100535653-6ac38080-324d-11eb-96d4-c66ac4371b44.png)
+<br/>![Screenshot (45)](https://user-images.githubusercontent.com/58022238/100535654-6c8d4400-324d-11eb-88bb-25f9914502bb.png)
 
+## soal 6 Disubnet 1 mendapat pinjaman alamat IP selama 5 menit, sedangkan pada subnet 3 mendapatkan peminjaman IP selama 10 menit.
+<br/>menabahkan:
+<br/>default-lease-time 600;
+<br/>max-lease-time 600;
+<br/>pada kedua subnet yang ada di UML Tuban
 
 
