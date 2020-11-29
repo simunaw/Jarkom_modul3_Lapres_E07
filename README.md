@@ -13,13 +13,13 @@ sysctl -p<br/>
 
 <br/>Melakukan setting IP dengan nano /etc/network/interfaces<br/>
 <br/>![Screenshot (24)](https://user-images.githubusercontent.com/58022238/100530216-b52f0800-3221-11eb-9dab-c65873b9c96f.png)<br/>
-<br/>![Screenshot (25)](https://user-images.githubusercontent.com/58022238/100530292-c7f60c80-3222-11eb-80f8-e1aabd01bdd8.png)<br/>
-![Screenshot (26)](https://user-images.githubusercontent.com/58022238/100530294-cdebed80-3222-11eb-919c-983a2b729a9c.png)<br/>
-![Screenshot (27)](https://user-images.githubusercontent.com/58022238/100530295-d2180b00-3222-11eb-999f-6d9b17b32712.png)<br/>
-![Screenshot (28)](https://user-images.githubusercontent.com/58022238/100530297-d6dcbf00-3222-11eb-992b-8f9cd13b26bc.png)<br/>
-![Screenshot (29)](https://user-images.githubusercontent.com/58022238/100530298-dd6b3680-3222-11eb-8014-93f2a7498a02.png)<br/>
-![Screenshot (30)](https://user-images.githubusercontent.com/58022238/100530304-e4924480-3222-11eb-8f53-9d8cb3e32e97.png)<br/>
-![Screenshot (31)](https://user-images.githubusercontent.com/58022238/100530309-eb20bc00-3222-11eb-8de4-806a86f64bc4.png)<br/>
+<br/>![1 4](https://user-images.githubusercontent.com/56763570/100535252-16c48780-31cc-11eb-9b57-79625563d0f5.png)<br/>
+<br/>![1 5](https://user-images.githubusercontent.com/56763570/100535254-19bf7800-31cc-11eb-9bff-131991c9ccee.png)<br/>
+<br/>![1 6](https://user-images.githubusercontent.com/56763570/100535255-1cba6880-31cc-11eb-8176-9baa25cb9276.png)<br/>
+<br/>![1 7](https://user-images.githubusercontent.com/56763570/100535256-1d52ff00-31cc-11eb-9085-075b881e6218.png)<br/>
+<br/>![1 8](https://user-images.githubusercontent.com/56763570/100535257-1f1cc280-31cc-11eb-9778-35fd2eb8beee.png)<br/>
+<br/>![1 9](https://user-images.githubusercontent.com/56763570/100535260-23e17680-31cc-11eb-8027-9da4ba6d39f5.png)<br/>
+<br/>![1 10](https://user-images.githubusercontent.com/56763570/100535261-23e17680-31cc-11eb-91e9-a9729f7f6ee6.png)<br/>
 
 <br/>Melakukan iptables<br/>
 ![Screenshot (32)](https://user-images.githubusercontent.com/58022238/100530311-efe57000-3222-11eb-89c1-458f2c25d849.png)<br/>
