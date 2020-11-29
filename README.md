@@ -54,7 +54,12 @@ sysctl -p<br/>
 
 ## soal 3 Menambahkan subnet pada range 1
 <br/>IP dari 192.168.0.10 sampai 192.168.0.100 dan 192.168.0.110 sampai 192.168.0.200.
-<br/>
+<br/>![Screenshot (40)](https://user-images.githubusercontent.com/58022238/100535639-49fb2b00-324d-11eb-9369-4d63ea4ace1f.png)
+
+## soal 4 Menambahkan range pada subnet 3
+<br/>Client pada subnet 3 mendapatkan range IP dari 192.168.1.50 sampai 192.168.1.70.
+<br/>(42) - Copy](https://user-images.githubusercontent.com/58022238/100535647-626b4580-324d-11eb-98b8-8489e88f5dc6.png)
+<br/>![Screenshot (43)](https://user-images.githubusercontent.com/58022238/100535652-68f9bd00-324d-11eb-84ef-8db9c94d8ea0.png)
 
 
 
