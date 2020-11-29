@@ -51,6 +51,9 @@ sysctl -p<br/>
 <br/>auto eth0
 <br/>iface eth0 inet dhcp
 <br/>![Screenshot (39)](https://user-images.githubusercontent.com/58022238/100530538-dc87d400-3225-11eb-9c3f-aec430cd9b38.png) 
+
+## soal 3 Menambahkan subnet pada range 1
+<br/>IP dari 192.168.0.10 sampai 192.168.0.100 dan 192.168.0.110 sampai 192.168.0.200.
 <br/>
 
 
