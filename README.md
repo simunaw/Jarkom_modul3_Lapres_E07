@@ -2,7 +2,7 @@
 
 
 
-1. 
+1. Mensetting uml sesuai deskripsi soal
 a.) Di UML Surabaya
 
 nano /etc/sysctl.conf 
