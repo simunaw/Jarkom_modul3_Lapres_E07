@@ -4,7 +4,7 @@ Praktikum Modul 3 Jarkom 2020<br/>
 05111840000115 Muhammad Rafi Yudhistira<br/>
 05111840007004 Siti Munawaroh<br/>
 ## Soal 1
-### Di UML Surabaya
+#### Di UML Surabaya
 nano /etc/sysctl.conf<br/>
 net.ipv4.ip_forward=1<br/>
 sysctl -p<br/>
@@ -32,14 +32,12 @@ apt-get install isc-dhcp-relay<br/>
 <br/>![Screenshot (35)](https://user-images.githubusercontent.com/58022238/100530530-cf6ae500-3225-11eb-92f1-4d2da1552156.png)<br/>
 
 #### Kemudian memasukkan IP Tuban dan mengatur nilai interfaces “eth1, eth2, eth3”
-nano /etc/default/isc-dhcp-relay
+nano /etc/default/isc-dhcp-relay<br/>
 <br/>![Screenshot (36)](https://user-images.githubusercontent.com/58022238/100530531-d265d580-3225-11eb-80f3-af73e210dec8.png)<br/>
 
-b.) Install DHCP di UML Tuban
-
-apt-get install isc-dhcp-server
-
-![Screenshot (37)](https://user-images.githubusercontent.com/58022238/100530534-d560c600-3225-11eb-876d-7ee5b22c6152.png)
+#### Install DHCP di UML Tuban
+apt-get install isc-dhcp-server<br/>
+<br/>![Screenshot (37)](https://user-images.githubusercontent.com/58022238/100530534-d560c600-3225-11eb-876d-7ee5b22c6152.png)<br/>
 
 
 c.) Kemudian tambahkan subnet NID_DMZ di UML Tuban agar dhcp relay bisa berjalan
