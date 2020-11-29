@@ -28,8 +28,15 @@ Melakukan setting IP dengan nano /etc/network/interfaces
 
 ![Screenshot (31)](https://user-images.githubusercontent.com/58022238/100530309-eb20bc00-3222-11eb-8de4-806a86f64bc4.png)
 
+Melakukan iptables
+
 ![Screenshot (32)](https://user-images.githubusercontent.com/58022238/100530311-efe57000-3222-11eb-89c1-458f2c25d849.png)
 
 ![Screenshot (33)](https://user-images.githubusercontent.com/58022238/100530312-f378f700-3222-11eb-9dd4-799d4360daa2.png)
 
 ![Screenshot (34)](https://user-images.githubusercontent.com/58022238/100530315-f7a51480-3222-11eb-9d51-8e54ce9bbb5f.png)
+
+2. 
+Install dhcp relay di UML Surabaya
+apt-get install isc-dhcp-relay
+
